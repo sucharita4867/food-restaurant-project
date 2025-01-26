@@ -2,10 +2,26 @@
 *{
     margin: 0px;
     padding: 0px;
+}.btn-contain{
+    text-align: center;
+}
+.button{
+    padding: 15px 18px 14px 18px;
+    color: rgb(255, 255, 255);
+    font-family: work sans;
+    font-size: 12px;
+    font-weight: 600px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+
+background: rgb(82, 195, 3);
 }
 #hero{
     height: 579px;
-    width: 1000px;
+    width: 100%;
     /* background-image: linear-gradient(180deg,
     rgb(16, 16, 16,) -19.5%,
     rgba(16, 16, 16, 0)100%
@@ -13,7 +29,7 @@
     /* visibility: hidden; */
     background-color: rgb(30, 30, 30); 
     background-image: linear-gradient(
-       180.00deg,
+       0deg,
      rgb(16, 16, 16)-19.5%,
      rgba(16, 16, 16 ,0) 100%
     ),
@@ -25,6 +41,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 #hero .hero-content{
@@ -39,6 +56,8 @@
     letter-spacing: 0px;
     text-align: center;
     opacity: 0.8; 
+    margin: 10px;
+    margin-bottom: 10px;
 }
 #hero .hero-content .title{
     color: rgb(255, 255, 255);
@@ -49,6 +68,7 @@
     letter-spacing: 0px;
     text-align: center;
     opacity: 0.8; 
+    margin-bottom: 14px;
 }
 #hero .hero-content .description{
     color: rgb(255, 255, 255);
@@ -60,4 +80,5 @@
     text-align: center;
     opacity: 0.8;
     opacity: 0.7;
+    margin-bottom: 32px;
 }
